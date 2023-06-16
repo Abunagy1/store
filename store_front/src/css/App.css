@@ -1,0 +1,117 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.fixed-header {
+  top: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  width: 240px;
+  margin: 10px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.flex-container>div>input {
+  margin-right: 200px;
+}
+
+.delete-checkbox {
+  margin-left: 10px;
+}
+
+#save_button {
+  margin-top: 10px;
+}
+
+#cancel_button {
+  margin-top: 10px;
+}
+
+#add_button {
+  margin-top: 10px;
+}
+
+#delete-product-btn {
+  margin-top: 10px;
+}
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .Title {
+  color: black;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* .Buttons {
+  display: flex;
+}
+
+.custom-button {
+  background-color: #4CAF50;
+  
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+} */
+
+/* .custom-button:hover {
+  background-color: #3e8e41;
+} */
+
+/* .App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

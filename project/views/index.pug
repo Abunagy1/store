@@ -1,0 +1,16 @@
+extends layout
+block content
+  h1= title
+  p Welcome to #[em MY Store], a very basic Express website developed as a test Assginment .
+  h1 Dynamic content
+  if error
+    p Error getting dynamic content.
+  else
+    p The Store has the following Products:
+    ul
+      li #[strong SKU:] !{data.sku}
+      li #[strong NAME:] !{data.name}
+      li #[strong Price available:] !{data.price}
+      li #[strong Type:] !{data.Type_Switcher}
+      li #[strong Category:] !{data.category}
+      li #[strong Rate:] !{data.rating}
